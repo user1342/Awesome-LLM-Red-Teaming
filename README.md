@@ -44,7 +44,7 @@ Awesome LLM Red Teaming is a curated list for researchers, engineers, and enthus
 
 ## Reverse Engineering and Analysis
 
-- **[☆ Oversight](https://github.com/user1342/Oversight)** - A modular framework for reverse engineering, red-teaming, and vulnerability research in LLMs. Supports structured testing and automated probing.
+- **[☆ Oversight](https://github.com/user1342/Oversight)** - A modular framework for reverse engineering, red-teaming, and vulnerability research in LLMs. 
 - **[TextAttack](https://github.com/QData/TextAttack)** - Framework for adversarial text generation and NLP vulnerability testing, with support for adversarial attack creation, data augmentation, and model defense.
 
 ## Prompt Manipulation and Control
