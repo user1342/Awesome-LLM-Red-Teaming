@@ -49,7 +49,7 @@ Awesome LLM Red Teaming is a curated list for researchers, engineers, and enthus
 
 ## Prompt Manipulation and Control
 
-- **[Abliteration](https://huggingface.co/blog/mlabonne/abliteration)** - Tool for bypassing content filters in LLMs, revealing the model’s full generation capabilities.
+- **[☆ Abliteration](https://huggingface.co/blog/mlabonne/abliteration)** - Tool for bypassing content filters in LLMs, revealing the model’s full generation capabilities.
 - **[CTRL by Salesforce](https://github.com/salesforce/ctrl)** - A conditional transformer model that enables prompt-based control, helping researchers analyze how prompts affect LLM behavior.
   
 ## Adversarial Attack and Defense
@@ -82,7 +82,8 @@ Awesome LLM Red Teaming is a curated list for researchers, engineers, and enthus
 
 # Tutorials and Guides
 
-- **[Hugging Face's Guide to Red-Teaming LLMs](https://huggingface.co/blog/red-teaming)** - Covers best practices for ethically red-teaming LLMs, with examples on probing biases and adversarial testing.
+- **[☆ Hugging Face's Guide to Red-Teaming LLMs](https://huggingface.co/blog/red-teaming)** - Covers best practices for ethically red-teaming LLMs, with examples on probing biases and adversarial testing.
+- **[Planning red teaming for large language models (LLMs) and their applications](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/red-teaming)** - This guide offers some potential strategies for planning how to set up and manage red teaming for responsible AI (RAI) risks throughout the large language model (LLM) product life cycle.
 - **[Using TextAttack for Adversarial Example Generation](https://textattack.readthedocs.io/en/latest/)** - Tutorial on creating adversarial text samples with TextAttack to probe weaknesses in LLMs.
 - **[Prompt Engineering for Red Teaming](https://promptengineering.org)** - Techniques for prompt injection and manipulation, useful for understanding LLM vulnerabilities and testing prompt-responsiveness.
 
