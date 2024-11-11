@@ -77,7 +77,7 @@ Awesome LLM Red Teaming is a curated list for researchers, engineers, and enthus
 
 # Research Papers
 
-- **[TruthfulQA: Measuring How Models Mimic Human Fallacies](https://arxiv.org/abs/2109.07958)** - Benchmark paper on the truthfulness of model outputs, addressing hallucination in LLMs.
+- **[TruthfulQA: Measuring How Models Mimic Human Falsehoods](https://arxiv.org/abs/2109.07958)** - Benchmark paper on the truthfulness of model outputs, addressing hallucination in LLMs.
 - **[Understanding and Mitigating Hallucinations in LLMs](https://ieeexplore.ieee.org/abstract/document/10569238/)** - Examines how hallucinations emerge in LLMs and suggests approaches for detecting and addressing this issue.
 
 # Tutorials and Guides
