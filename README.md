@@ -91,7 +91,7 @@ Awesome LLM Red Teaming is a curated list for researchers, engineers, and enthus
 
 - **[Hugging Face Community](https://discuss.huggingface.co/)** - Platform for discussing LLM development, testing, and ethical considerations with a strong focus on responsible AI practices.
 - **[EleutherAI Discord](https://www.eleuther.ai/)** - Open-source AI research community with discussions on language model security, vulnerabilities, and adversarial testing.
-- **[r/MachineLearning](https://www.reddit.com/r/MachineLearning/)** - Popular Reddit forum for discussions on LLM research, vulnerability testing, and model robustness.
+- **[r/MachineLearning](https://www.reddit.com/r/MachineLearning/)** - Popular Reddit forum for discussions on LLM research.
 - **[OpenAI's Red Teaming Network](https://openai.com/form/red-teaming-network/)** - OpenAI’s network for red-teaming and vulnerability analysis for language models.
 
 # Contributing
