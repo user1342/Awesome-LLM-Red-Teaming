@@ -66,6 +66,7 @@ Awesome LLM Red Teaming is a curated list for researchers, engineers, and enthus
 ## Miscellaneous
 
 - **[Prompt Engineering Tools](https://www.promptengineering.org)** - A resource for learning about prompt engineering, which includes various prompt manipulation techniques useful for red-teaming.
+- **[☆ Folly](https://github.com/user1342/Folly)** - Open-source LLM Prompt-Injection and Jailbreaking Playground.
   
 # Techniques and Approaches
 
