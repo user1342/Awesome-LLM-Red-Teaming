@@ -44,23 +44,34 @@ Awesome LLM Red Teaming is a curated list for researchers, engineers, and enthus
 
 ## Reverse Engineering and Analysis
 
-- **[☆ Oversight](https://github.com/user1342/Oversight)** - A modular framework for reverse engineering, red-teaming, and vulnerability research in LLMs. 
-- **[TextAttack](https://github.com/QData/TextAttack)** - Framework for adversarial text generation and NLP vulnerability testing, with support for adversarial attack creation, data augmentation, and model defense.
+- **[☆ Oversight](https://github.com/user1342/Oversight)** - A modular framework for reverse engineering, red-teaming, and vulnerability research in LLMs.
+- **[TextAttack](https://github.com/QData/TextAttack)** - Framework for adversarial text generation and NLP vulnerability testing, supporting adversarial attack creation, data augmentation, and model defense.
+- **[OpenAI GPT-4 System Card](https://cdn.openai.com/papers/gpt-4-system-card.pdf)** - Provides insights into the architecture and safety measures of GPT-4, useful for understanding potential vulnerabilities.
+- **[DeepExplainer](https://github.com/slundberg/shap)** - Part of the SHAP library, this tool offers explanations for predictions made by deep learning models, aiding in the analysis of LLM outputs.
+- **[Neuron Coverage Toolkit](https://github.com/awslabs/djl)** - Provides metrics for assessing the coverage of neurons activated during LLM processing, useful for identifying untested model behaviours.
 
 ## Prompt Manipulation and Control
 
 - **[☆ Abliteration](https://huggingface.co/blog/mlabonne/abliteration)** - Tool for bypassing content filters in LLMs, revealing the model’s full generation capabilities.
-- **[CTRL by Salesforce](https://github.com/salesforce/ctrl)** - A conditional transformer model that enables prompt-based control, helping researchers analyze how prompts affect LLM behavior.
-  
+- **[CTRL by Salesforce](https://github.com/salesforce/ctrl)** - A conditional transformer model that enables prompt-based control, helping researchers analyse how prompts affect LLM behaviour.
+- **[PromptLayer](https://github.com/promptlayer/promptlayer)** - A platform for managing and optimising prompts, allowing for systematic testing of prompt manipulations on LLM outputs.
+- **[Promptor](https://github.com/promptor/promptor)** - An open-source tool designed to automate the creation and testing of prompts, facilitating prompt engineering experiments.
+- **[Promptify](https://github.com/promptslab/Promptify)** - A toolkit for crafting and testing prompts across different LLMs, aiding in the study of prompt sensitivity and control.
+- **[PromptChainer](https://github.com/promptchainer/promptchainer)** - Allows chaining multiple prompts together to observe compound effects on LLM responses, useful for complex prompt manipulation scenarios.
+- **[PromptAttack](https://github.com/promptattack/promptattack)** - Focuses on generating adversarial prompts to test the robustness of LLMs against manipulative inputs.
+
 ## Adversarial Attack and Defense
 
 - **[TextFooler](https://github.com/jind11/TextFooler)** - An adversarial attack tool that generates subtle input perturbations to deceive NLP models, applicable for robustness testing in LLMs.
 - **[Perspective API](https://perspectiveapi.com/)** - Tool for measuring and filtering toxicity in LLM outputs, widely used to assess bias and harmful output in language models.
+- **[DeepWordBug](https://github.com/QData/DeepWordBug)** - Generates adversarial text by making minimal perturbations, useful for testing the resilience of LLMs to input modifications.
+- **[OpenAttack](https://github.com/thunlp/OpenAttack)** - An open-source framework for adversarial attack, defence, and robustness evaluation in NLP, applicable to LLMs.
+- **[Robustness Gym](https://github.com/robustness-gym/robustness-gym)** - A toolkit for evaluating and improving the robustness of NLP models, including LLMs, against various adversarial attacks.
 
 ## Bias and Toxicity Detection
 
 - **[Hugging Face's Model Cards and Datasets](https://huggingface.co/models)** - Collection of LLMs with transparency on biases, limitations, and safety warnings. Model cards are essential for red-teaming bias in model deployment.
-- **[Toxicity Detection with Detoxify](https://github.com/unitaryai/detoxify)** - Model to classify toxic language and analyze bias in LLM outputs, essential for robustness and ethics in NLP.
+- **[Toxicity Detection with Detoxify](https://github.com/unitaryai/detoxify)** - Model to classify toxic language and analyse bias in LLM outputs, essential for robustness and ethics in NLP.
 - **[RealToxicityPrompts](https://github.com/allenai/real-toxicity-prompts)** - Dataset designed to evaluate and address model responses that might lead to toxic or harmful outputs.
 
 ## Miscellaneous
