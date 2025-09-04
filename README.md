@@ -19,93 +19,63 @@ A comprehensive list of tools and resources for red-teaming large language model
 
 </div>
 
-# How to Use
+# LLM Red Teaming Resources by Technical Function
 
-Awesome LLM Red Teaming is a curated list for researchers, engineers, and enthusiasts focused on exploring, testing, and securing large language models. Use `ctrl + F` to search for keywords, explore our Contents menu, or look for a '☆' symbol for standout resources.
+## Playgrounds and practice targets
+- **[Folly](https://github.com/user1342/Folly)** - Open-source LLM prompt injection and jailbreak playground for hands-on experimentation.  
+- **[DamnVulnerableMathLLM](https://github.com/user1342/DamnVulnerableMathLLM)** - Intentionally vulnerable maths LLM app for practising prompt injection and logic exploits.  
+- **[DamnVulnerableShoppingLLM](https://github.com/user1342/DamnVulnerableShoppingLLM)** - Intentionally vulnerable shopping assistant scenario for testing data leakage and unsafe tool use.  
+- **[RedTeam Arena](https://redarena.ai/)** - Competitive jailbreak challenges that train you to bypass model guardrails under time pressure.  
+- **[MyLLM Bank](https://myllmbank.com/)** - WithSecure CTF where you exploit a multi-LLM banking app to learn real-world prompt injection chains.  
+- **[MyLLM Doctor](https://myllmdoc.com/)** - WithSecure medical chatbot challenge showing multi-stage prompt injection and policy evasion.  
+- **[Gandalf by Lakera](https://gandalf.lakera.ai/intro)** - Public challenge where you try to extract a secret from an aligned model despite protections.  
 
-# Contents
+## Red teaming frameworks and agent harnesses
+- **[PyRIT](https://github.com/Azure/PyRIT)** - Microsoft framework for systematic, repeatable red teaming of generative AI systems with automation support.  
+- **[Rigging](https://github.com/dreadnode/rigging)** - Lightweight agent and tool-calling harness for orchestrating offensive LLM experiments in controlled environments.  
 
-- [Tools](#tools)
-  - [Reverse Engineering and Analysis](#reverse-engineering-and-analysis)
-  - [Prompt Manipulation and Control](#prompt-manipulation-and-control)
-  - [Adversarial Attack and Defense](#adversarial-attack-and-defense)
-  - [Bias and Toxicity Detection](#bias-and-toxicity-detection)
-  - [Miscellaneous](#miscellaneous)
-- [Techniques and Approaches](#techniques-and-approaches)
-- [Research Papers](#research-papers)
-- [Tutorials and Guides](#tutorials-and-guides)
-- [Communities and Forums](#communities-and-forums)
-- [Contributing](#contributing)
-- [License](#license)
+## Attack generation and jailbreak toolkits
+- **[BrokenHill](https://github.com/BishopFox/BrokenHill)** - Implementation of the Greedy Coordinate Gradient attack that automatically crafts adversarial prompts.  
+- **[llm-attacks](https://github.com/llm-attacks/llm-attacks)** - Research code for universal adversarial suffixes that transfer across aligned LLMs.  
+- **[Spikee](https://labs.withsecure.com/tools/spikee)** - Simple prompt injection toolkit for probing and exploiting LLM applications.  
 
----
+## Obfuscation and payload encoding utilities
+- **[Invisible Unicode Tags Playground](https://josephthacker.com/invisible_prompt_injection)** - Converts text to invisible Unicode tags to smuggle hidden instructions past filters.  
+- **[Emoji Variation Selector Playground](https://josephthacker.com/emoji_variation)** - Hides data in emoji variation selectors to evade naïve content checks.  
+- **[ASCII to Unicode Character Reducer](https://josephthacker.com/unicode_reducer)** - Re-encodes ASCII as compact Unicode lookalikes to defeat brittle filters.  
 
-# Tools
+## Traffic interception and support tooling
+- **[☆ LLM-itM](https://github.com/user1342/LLM-itM)** - Man-in-the-middle proxy for OpenAI-compatible APIs that lets you inspect and modify prompts and responses.  
 
-## Reverse Engineering and Analysis
+## Defences, standards and guardrails to test against
+- **[Anthropic Constitutional Classifiers](https://www.anthropic.com/news/constitutional-classifiers)** - Rule-based alignment classifiers that red teamers can evaluate and attempt to bypass.  
+- **[Prompt Guard 86M](https://huggingface.co/meta-llama/Prompt-Guard-86M)** - Small model for detecting unsafe prompts that can be assessed and circumvented.  
+- **[OWASP Top 10 for LLMs](https://owasp.org/www-project-top-10-for-large-language-model-applications/)** - Community guidance on common LLM application risks and mitigations.  
 
-- **[☆ Oversight](https://github.com/user1342/Oversight)** - A modular framework for reverse engineering, red-teaming, and vulnerability research in LLMs.
-- **[TextAttack](https://github.com/QData/TextAttack)** - Framework for adversarial text generation and NLP vulnerability testing, supporting adversarial attack creation, data augmentation, and model defense.
-- **[OpenAI GPT-4 System Card](https://cdn.openai.com/papers/gpt-4-system-card.pdf)** - Provides insights into the architecture and safety measures of GPT-4, useful for understanding potential vulnerabilities.
-- **[DeepExplainer](https://github.com/slundberg/shap)** - Part of the SHAP library, this tool offers explanations for predictions made by deep learning models, aiding in the analysis of LLM outputs.
-- **[Neuron Coverage Toolkit](https://github.com/awslabs/djl)** - Provides metrics for assessing the coverage of neurons activated during LLM processing, useful for identifying untested model behaviours.
+## Research papers and technical articles
+- **[Best-of-N Jailbreaks](https://arxiv.org/abs/2412.03556)** - Black-box strategy that samples many prompts and selects those most likely to bypass guardrails.  
+- **[Universal and Transferable Attacks](https://arxiv.org/abs/2307.15043)** - Demonstrates universal adversarial suffixes that elicit unsafe outputs across models.  
+- **[AutoDAN](https://arxiv.org/abs/2310.15140)** - Dual-LLM method that crafts gradient-inspired adversarial prompts to defeat filters.  
+- **[Faster-GCG](https://arxiv.org/abs/2410.15362)** - Efficiency improvements that speed up discrete optimisation for jailbreak prompts.  
+- **[GenBFA](https://arxiv.org/abs/2411.13757)** - Shows bit-flip weight corruption can induce malicious behaviour in generative models.  
+- **[Manipulating LLM Recommendations](https://arxiv.org/abs/2404.07981)** - Examines how adversarial prompts can game LLM-driven recommenders.  
+- **[GCG on OpenReview](https://openreview.net/forum?id=CMgxAaRqZh)** - Peer-review discussion of coordinate gradient jailbreak optimisation.  
+- **[GCG explainer by Nightfall](https://www.nightfall.ai/ai-security-101/greedy-coordinate-gradient-gcg)** - Plain-language overview of GCG and why it works.  
+- **[BrokenHill overview by Bishop Fox](https://bishopfox.com/blog/brokenhill-attack-tool-largelanguagemodels-llm)** - Practitioner write-up on applying GCG in the wild.  
+- **[ACG by Haize Labs](https://blog.haizelabs.com/posts/acg/)** - Introduces an accelerated variant that dramatically reduces attack time.  
 
-## Prompt Manipulation and Control
+## Case studies and exploitation write-ups
+- **[Microsoft on evolving guardrail attacks](https://www.microsoft.com/en-us/security/blog/2024/04/11/how-microsoft-discovers-and-mitigates-evolving-attacks-against-ai-guardrails/)** - Details jailbreak patterns observed in the wild and defensive responses.  
+- **[Lessons from red teaming 100 AI products](https://www.microsoft.com/en-us/security/blog/2025/01/13/3-takeaways-from-red-teaming-100-generative-ai-products/)** - Summarises lessons from large-scale AI product red teaming.  
+- **[Multi-chain prompt injection attacks](https://labs.withsecure.com/publications/multi-chain-prompt-injection-attacks)** - Explains chaining attacks across stages in complex LLM systems.  
+- **[Context pollution and delayed tool use](https://embracethered.com/blog/posts/2024/llm-context-pollution-and-delayed-automated-tool-invocation/)** - Shows how polluting context can trigger dangerous automated tool use later.  
+- **[Terminal ANSI sequence abuse](https://embracethered.com/blog/posts/2024/terminal-dillmas-prompt-injection-ansi-sequences/)** - Demonstrates how hidden escape codes in outputs can lead to local code execution.  
+- **[Air Canada chatbot case](https://www.wired.com/story/air-canada-chatbot-refund-policy/)** - Real-world legal impact when an AI system produces binding misinformation.  
 
-- **[☆ Abliteration](https://huggingface.co/blog/mlabonne/abliteration)** - Tool for bypassing content filters in LLMs, revealing the model’s full generation capabilities.
-- **[CTRL by Salesforce](https://github.com/salesforce/ctrl)** - A conditional transformer model that enables prompt-based control, helping researchers analyse how prompts affect LLM behaviour.
-- **[PromptLayer](https://github.com/promptlayer/promptlayer)** - A platform for managing and optimising prompts, allowing for systematic testing of prompt manipulations on LLM outputs.
-- **[Promptor](https://github.com/promptor/promptor)** - An open-source tool designed to automate the creation and testing of prompts, facilitating prompt engineering experiments.
-- **[Promptify](https://github.com/promptslab/Promptify)** - A toolkit for crafting and testing prompts across different LLMs, aiding in the study of prompt sensitivity and control.
-- **[PromptChainer](https://github.com/promptchainer/promptchainer)** - Allows chaining multiple prompts together to observe compound effects on LLM responses, useful for complex prompt manipulation scenarios.
-- **[PromptAttack](https://github.com/promptattack/promptattack)** - Focuses on generating adversarial prompts to test the robustness of LLMs against manipulative inputs.
+## Bug bounties and programmes
+- **[Microsoft AI Bounty](https://www.microsoft.com/en-us/msrc/bounty)** - Official programme that accepts AI vulnerability reports with rewards.  
+- **[0DIN AI](https://0din.ai/)** - Platform focused on GenAI bug bounties and evaluations.  
 
-## Adversarial Attack and Defense
-
-- **[TextFooler](https://github.com/jind11/TextFooler)** - An adversarial attack tool that generates subtle input perturbations to deceive NLP models, applicable for robustness testing in LLMs.
-- **[Perspective API](https://perspectiveapi.com/)** - Tool for measuring and filtering toxicity in LLM outputs, widely used to assess bias and harmful output in language models.
-- **[DeepWordBug](https://github.com/QData/DeepWordBug)** - Generates adversarial text by making minimal perturbations, useful for testing the resilience of LLMs to input modifications.
-- **[OpenAttack](https://github.com/thunlp/OpenAttack)** - An open-source framework for adversarial attack, defence, and robustness evaluation in NLP, applicable to LLMs.
-- **[Robustness Gym](https://github.com/robustness-gym/robustness-gym)** - A toolkit for evaluating and improving the robustness of NLP models, including LLMs, against various adversarial attacks.
-
-## Bias and Toxicity Detection
-
-- **[Hugging Face's Model Cards and Datasets](https://huggingface.co/models)** - Collection of LLMs with transparency on biases, limitations, and safety warnings. Model cards are essential for red-teaming bias in model deployment.
-- **[Toxicity Detection with Detoxify](https://github.com/unitaryai/detoxify)** - Model to classify toxic language and analyse bias in LLM outputs, essential for robustness and ethics in NLP.
-- **[RealToxicityPrompts](https://github.com/allenai/real-toxicity-prompts)** - Dataset designed to evaluate and address model responses that might lead to toxic or harmful outputs.
-
-## Miscellaneous
-
-- **[Prompt Engineering Tools](https://www.promptengineering.org)** - A resource for learning about prompt engineering, which includes various prompt manipulation techniques useful for red-teaming.
-- **[☆ Folly](https://github.com/user1342/Folly)** - Open-source LLM Prompt-Injection and Jailbreaking Playground.
-- **[☆ LLM-itM](https://github.com/user1342/LLM-itM)** - A machine-in-the-middle tool for proxying, inspecting, and modifying traffic sent to and from an OpenAI-compliant endpoint.
-  
-# Techniques and Approaches
-
-- **Prompt Injection and Manipulation** - Using prompt engineering techniques to manipulate and probe LLM behavior by injecting unexpected commands or context.
-- **Adversarial Attack Generation** - Creating adversarial examples to test the model's susceptibility to perturbations, such as synonym replacements, input rearrangement, and semantic changes.
-- **Hallucination Testing** - Evaluating model consistency and accuracy by prompting for factual information, then checking for potential model hallucinations.
-- **Uncensoring and Content Filter Bypass** - Techniques for disabling content filters to study hidden model behaviors and raw generative capabilities.
-- **Bias and Toxicity Detection** - Tools and metrics for assessing LLM outputs for bias and toxicity to ensure responsible and ethical deployment.
-
-# Research Papers
-
-- **[TruthfulQA: Measuring How Models Mimic Human Falsehoods](https://arxiv.org/abs/2109.07958)** - Benchmark paper on the truthfulness of model outputs, addressing hallucination in LLMs.
-- **[Understanding and Mitigating Hallucinations in LLMs](https://ieeexplore.ieee.org/abstract/document/10569238/)** - Examines how hallucinations emerge in LLMs and suggests approaches for detecting and addressing this issue.
-
-# Tutorials and Guides
-
-- **[☆ Hugging Face's Guide to Red-Teaming LLMs](https://huggingface.co/blog/red-teaming)** - Covers best practices for ethically red-teaming LLMs, with examples on probing biases and adversarial testing.
-- **[Planning red teaming for large language models (LLMs) and their applications](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/red-teaming)** - This guide offers some potential strategies for planning how to set up and manage red teaming for responsible AI (RAI) risks throughout the large language model (LLM) product life cycle.
-- **[Using TextAttack for Adversarial Example Generation](https://textattack.readthedocs.io/en/latest/)** - Tutorial on creating adversarial text samples with TextAttack to probe weaknesses in LLMs.
-- **[Prompt Engineering for Red Teaming](https://promptengineering.org)** - Techniques for prompt injection and manipulation, useful for understanding LLM vulnerabilities and testing prompt-responsiveness.
-
-# Communities and Forums
-
-- **[Hugging Face Community](https://discuss.huggingface.co/)** - Platform for discussing LLM development, testing, and ethical considerations with a strong focus on responsible AI practices.
-- **[EleutherAI Discord](https://www.eleuther.ai/)** - Open-source AI research community with discussions on language model security, vulnerabilities, and adversarial testing.
-- **[r/MachineLearning](https://www.reddit.com/r/MachineLearning/)** - Popular Reddit forum for discussions on LLM research.
-- **[OpenAI's Red Teaming Network](https://openai.com/form/red-teaming-network/)** - OpenAI’s network for red-teaming and vulnerability analysis for language models.
 
 # Contributing
 
