@@ -45,7 +45,7 @@ A comprehensive list of tools and resources for red-teaming large language model
 - **[ASCII to Unicode Character Reducer](https://josephthacker.com/unicode_reducer)** - Re-encodes ASCII as compact Unicode lookalikes to defeat brittle filters.  
 
 ## Traffic interception and support tooling
-- **[☆ LLM-itM](https://github.com/user1342/LLM-itM)** - Man-in-the-middle proxy for OpenAI-compatible APIs that lets you inspect and modify prompts and responses.  
+- **[LLM-itM](https://github.com/user1342/LLM-itM)** - Man-in-the-middle proxy for OpenAI-compatible APIs that lets you inspect and modify prompts and responses.  
 
 ## Defences, standards and guardrails to test against
 - **[Anthropic Constitutional Classifiers](https://www.anthropic.com/news/constitutional-classifiers)** - Rule-based alignment classifiers that red teamers can evaluate and attempt to bypass.  
