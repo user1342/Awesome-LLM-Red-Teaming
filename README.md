@@ -31,7 +31,8 @@ A comprehensive list of tools and resources for red-teaming large language model
 - **[Gandalf by Lakera](https://gandalf.lakera.ai/intro)** - Public challenge where you try to extract a secret from an aligned model despite protections.  
 
 ## Red teaming frameworks and agent harnesses
-- **[PyRIT](https://github.com/Azure/PyRIT)** - Microsoft framework for systematic, repeatable red teaming of generative AI systems with automation support.  
+- **[promptfoo](https://github.com/promptfoo/promptfoo)** - Adaptive red teaming for LLM agents—runs multi-turn attack chains against your actual application, probing tool use, RAG, and agentic workflows. Implements techniques like tree-of-attacks, PAIR, and crescendo.
+- **[PyRIT](https://github.com/Azure/PyRIT)** - Microsoft framework for systematic, repeatable red teaming of generative AI systems with automation support.
 - **[Rigging](https://github.com/dreadnode/rigging)** - Lightweight agent and tool-calling harness for orchestrating offensive LLM experiments in controlled environments.  
 
 ## Attack generation and jailbreak toolkits
