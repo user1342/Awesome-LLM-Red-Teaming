@@ -29,6 +29,7 @@ A comprehensive list of tools and resources for red-teaming large language model
 - **[MyLLM Bank](https://myllmbank.com/)** - WithSecure CTF where you exploit a multi-LLM banking app to learn real-world prompt injection chains.  
 - **[MyLLM Doctor](https://myllmdoc.com/)** - WithSecure medical chatbot challenge showing multi-stage prompt injection and policy evasion.  
 - **[Gandalf by Lakera](https://gandalf.lakera.ai/intro)** - Public challenge where you try to extract a secret from an aligned model despite protections.  
+- **[PromptTrace](https://prompttrace.airedlab.com/)** - Interactive AI security training platform with 7 attack labs, a 15-level Gauntlet with progressive defenses, and real-time Context Trace visualization for practicing prompt injection, defense bypass, and tool abuse against real LLMs.  
 
 ## Red teaming frameworks and agent harnesses
 - **[PyRIT](https://github.com/Azure/PyRIT)** - Microsoft framework for systematic, repeatable red teaming of generative AI systems with automation support.  
