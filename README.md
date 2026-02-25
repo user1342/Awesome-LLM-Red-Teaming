@@ -32,7 +32,8 @@ A comprehensive list of tools and resources for red-teaming large language model
 
 ## Red teaming frameworks and agent harnesses
 - **[PyRIT](https://github.com/Azure/PyRIT)** - Microsoft framework for systematic, repeatable red teaming of generative AI systems with automation support.  
-- **[Rigging](https://github.com/dreadnode/rigging)** - Lightweight agent and tool-calling harness for orchestrating offensive LLM experiments in controlled environments.  
+- **[Rigging](https://github.com/dreadnode/rigging)** - Lightweight agent and tool-calling harness for orchestrating offensive LLM experiments in controlled environments.
+- **[AdversaryPilot](https://github.com/Aviral2642/AdversaryPilot)** - Adaptive AI red teaming campaign planner that helps security engineers decide which adversarial attack to run next, import results from tools like garak/promptfoo, and generate replayable defender-facing reports.
 
 ## Attack generation and jailbreak toolkits
 - **[BrokenHill](https://github.com/BishopFox/BrokenHill)** - Implementation of the Greedy Coordinate Gradient attack that automatically crafts adversarial prompts.  
