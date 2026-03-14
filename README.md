@@ -51,6 +51,7 @@ A comprehensive list of tools and resources for red-teaming large language model
 - **[Anthropic Constitutional Classifiers](https://www.anthropic.com/news/constitutional-classifiers)** - Rule-based alignment classifiers that red teamers can evaluate and attempt to bypass.  
 - **[Prompt Guard 86M](https://huggingface.co/meta-llama/Prompt-Guard-86M)** - Small model for detecting unsafe prompts that can be assessed and circumvented.  
 - **[OWASP Top 10 for LLMs](https://owasp.org/www-project-top-10-for-large-language-model-applications/)** - Community guidance on common LLM application risks and mitigations.  
+- **[AgentShield](https://github.com/elliotllliu/agent-shield)** - Security scanner for AI agent skills and MCP servers. 31 rules detect prompt injection (8 languages, 55+ patterns), data exfiltration, tool poisoning, and cross-file attack chains. Useful as a baseline defence to test bypass techniques against.
 
 ## Research papers and technical articles
 - **[Best-of-N Jailbreaks](https://arxiv.org/abs/2412.03556)** - Black-box strategy that samples many prompts and selects those most likely to bypass guardrails.  
