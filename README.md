@@ -35,6 +35,7 @@ A comprehensive list of tools and resources for red-teaming large language model
 - **[Rigging](https://github.com/dreadnode/rigging)** - Lightweight agent and tool-calling harness for orchestrating offensive LLM experiments in controlled environments.  
 
 ## Attack generation and jailbreak toolkits
+- **[ISC-Bench](https://github.com/wuyoscar/ISC-Bench)** - Benchmark and attack framework for Internal Safety Collapse: models produce harmful content through normal task completion without adversarial prompting. 95.3% avg failure rate on frontier LLMs. Includes single-turn, ICL, and agentic evaluation modes. [[Paper]](https://arxiv.org/abs/2603.23509)
 - **[BrokenHill](https://github.com/BishopFox/BrokenHill)** - Implementation of the Greedy Coordinate Gradient attack that automatically crafts adversarial prompts.  
 - **[llm-attacks](https://github.com/llm-attacks/llm-attacks)** - Research code for universal adversarial suffixes that transfer across aligned LLMs.  
 - **[Spikee](https://labs.withsecure.com/tools/spikee)** - Simple prompt injection toolkit for probing and exploiting LLM applications.  
