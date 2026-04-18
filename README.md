@@ -52,6 +52,7 @@ A comprehensive list of tools and resources for red-teaming large language model
 - **[Prompt Guard 86M](https://huggingface.co/meta-llama/Prompt-Guard-86M)** - Small model for detecting unsafe prompts that can be assessed and circumvented.  
 - **[OWASP Top 10 for LLMs](https://owasp.org/www-project-top-10-for-large-language-model-applications/)** - Community guidance on common LLM application risks and mitigations.  
 
+* **[jpi-guard](https://github.com/nexus-api-lab/nexus-mcp)** - Japanese-language prompt injection detection API and MCP server; useful for evaluating Japanese-text guardrail effectiveness against injection attacks. Covers OWASP LLM01:2025.
 ## Research papers and technical articles
 - **[Best-of-N Jailbreaks](https://arxiv.org/abs/2412.03556)** - Black-box strategy that samples many prompts and selects those most likely to bypass guardrails.  
 - **[Universal and Transferable Attacks](https://arxiv.org/abs/2307.15043)** - Demonstrates universal adversarial suffixes that elicit unsafe outputs across models.  
