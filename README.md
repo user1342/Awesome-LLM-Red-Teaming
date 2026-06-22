@@ -62,7 +62,8 @@ A comprehensive list of tools and resources for red-teaming large language model
 - **[GCG on OpenReview](https://openreview.net/forum?id=CMgxAaRqZh)** - Peer-review discussion of coordinate gradient jailbreak optimisation.  
 - **[GCG explainer by Nightfall](https://www.nightfall.ai/ai-security-101/greedy-coordinate-gradient-gcg)** - Plain-language overview of GCG and why it works.  
 - **[BrokenHill overview by Bishop Fox](https://bishopfox.com/blog/brokenhill-attack-tool-largelanguagemodels-llm)** - Practitioner write-up on applying GCG in the wild.  
-- **[ACG by Haize Labs](https://blog.haizelabs.com/posts/acg/)** - Introduces an accelerated variant that dramatically reduces attack time.  
+- **[ACG by Haize Labs](https://blog.haizelabs.com/posts/acg/)** - Introduces an accelerated variant that dramatically reduces attack time.
+- **[hego.red](https://hego.red/)** - Practical, hands-on AI/LLM red teaming notes and full methodology: prompt injection, jailbreaks, indirect injection, RAG, and agent/tool attacks.  
 
 ## Case studies and exploitation write-ups
 - **[Microsoft on evolving guardrail attacks](https://www.microsoft.com/en-us/security/blog/2024/04/11/how-microsoft-discovers-and-mitigates-evolving-attacks-against-ai-guardrails/)** - Details jailbreak patterns observed in the wild and defensive responses.  
