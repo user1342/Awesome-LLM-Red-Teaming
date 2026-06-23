@@ -37,7 +37,8 @@ A comprehensive list of tools and resources for red-teaming large language model
 ## Attack generation and jailbreak toolkits
 - **[BrokenHill](https://github.com/BishopFox/BrokenHill)** - Implementation of the Greedy Coordinate Gradient attack that automatically crafts adversarial prompts.  
 - **[llm-attacks](https://github.com/llm-attacks/llm-attacks)** - Research code for universal adversarial suffixes that transfer across aligned LLMs.  
-- **[Spikee](https://labs.withsecure.com/tools/spikee)** - Simple prompt injection toolkit for probing and exploiting LLM applications.  
+- **[Spikee](https://labs.withsecure.com/tools/spikee)** - Simple prompt injection toolkit for probing and exploiting LLM applications.
+- **[AICU](https://github.com/Jake-Schoellkopf/aicu)** - Modular black-box scanner for LLM prompt injection with single-turn, multi-turn crescendo escalation, and indirect file-based attacks. YAML-driven payloads with Best-of-N variant testing.  
 
 ## Obfuscation and payload encoding utilities
 - **[Invisible Unicode Tags Playground](https://josephthacker.com/invisible_prompt_injection)** - Converts text to invisible Unicode tags to smuggle hidden instructions past filters.  
