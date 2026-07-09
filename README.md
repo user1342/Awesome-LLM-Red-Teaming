@@ -50,6 +50,7 @@ A comprehensive list of tools and resources for red-teaming large language model
 ## Defences, standards and guardrails to test against
 - **[Anthropic Constitutional Classifiers](https://www.anthropic.com/news/constitutional-classifiers)** - Rule-based alignment classifiers that red teamers can evaluate and attempt to bypass.  
 - **[Prompt Guard 86M](https://huggingface.co/meta-llama/Prompt-Guard-86M)** - Small model for detecting unsafe prompts that can be assessed and circumvented.  
+- **[DarkMoon Privacy Gateway](https://github.com/ASCIT31/Dark-Moon)** - Self-hosted redaction and anti-exfiltration proxy that keeps sensitive values from reaching the LLM via deterministic placeholders; a data-privacy guardrail red teamers can evaluate and attempt to bypass.  
 - **[OWASP Top 10 for LLMs](https://owasp.org/www-project-top-10-for-large-language-model-applications/)** - Community guidance on common LLM application risks and mitigations.  
 
 ## Research papers and technical articles
