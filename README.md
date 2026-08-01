@@ -31,8 +31,9 @@ A comprehensive list of tools and resources for red-teaming large language model
 - **[Gandalf by Lakera](https://gandalf.lakera.ai/intro)** - Public challenge where you try to extract a secret from an aligned model despite protections.  
 
 ## Red teaming frameworks and agent harnesses
+- **[NuGuard](https://github.com/NuGuardAI/nuguard)** - Open-source CLI for AI-SBOM generation, automated red-teaming (prompt injection, tool misuse, data exfiltration), and static/runtime behavioral policy validation for agentic AI systems.
 - **[PyRIT](https://github.com/Azure/PyRIT)** - Microsoft framework for systematic, repeatable red teaming of generative AI systems with automation support.  
-- **[Rigging](https://github.com/dreadnode/rigging)** - Lightweight agent and tool-calling harness for orchestrating offensive LLM experiments in controlled environments.  
+- **[Rigging](https://github.com/dreadnode/rigging)** - Lightweight agent and tool-calling harness for orchestrating offensive LLM experiments in controlled environments.
 
 ## Attack generation and jailbreak toolkits
 - **[BrokenHill](https://github.com/BishopFox/BrokenHill)** - Implementation of the Greedy Coordinate Gradient attack that automatically crafts adversarial prompts.  
