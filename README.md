@@ -53,6 +53,7 @@ A comprehensive list of tools and resources for red-teaming large language model
 - **[OWASP Top 10 for LLMs](https://owasp.org/www-project-top-10-for-large-language-model-applications/)** - Community guidance on common LLM application risks and mitigations.  
 
 ## Research papers and technical articles
+- **[SoK: Systematizing LLM Prompt Security: Taxonomies, Datasets, and Unified Evaluation of Attacks and Defenses](https://arxiv.org/abs/2510.15476)** - IEEE S&P 2027 (accepted) systematization of jailbreak attacks and defenses with linked taxonomies, datasets, and matched single-turn evaluation; [code and artifacts](https://github.com/datasec-lab/PromptSecurity).
 - **[Best-of-N Jailbreaks](https://arxiv.org/abs/2412.03556)** - Black-box strategy that samples many prompts and selects those most likely to bypass guardrails.  
 - **[Universal and Transferable Attacks](https://arxiv.org/abs/2307.15043)** - Demonstrates universal adversarial suffixes that elicit unsafe outputs across models.  
 - **[AutoDAN](https://arxiv.org/abs/2310.15140)** - Dual-LLM method that crafts gradient-inspired adversarial prompts to defeat filters.  
