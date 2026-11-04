@@ -45,6 +45,7 @@ A comprehensive list of tools and resources for red-teaming large language model
 - **[ASCII to Unicode Character Reducer](https://josephthacker.com/unicode_reducer)** - Re-encodes ASCII as compact Unicode lookalikes to defeat brittle filters.  
 
 ## Traffic interception and support tooling
+- **[dsh-jailbreak](https://github.com/xqpsec/dsh-jailbreak)** - Vendor-side prompt-transform harness for DeepSeek Assistant: rewrites the outbound `/chat/completions` body at the request boundary without patching host source, ships 20 attack categories behind a seed arm, and reproduces 45.0% combined ASR against a 0.0% raw baseline (n=169/184/60) with 0.0 pt benign-capability delta on 24/24 objective checks. Default-off, byte-exact passthrough when disabled, `manifest + promptSha256` audit trail per transform. AGPL-3.0.  
 - **[LLM-itM](https://github.com/user1342/LLM-itM)** - Man-in-the-middle proxy for OpenAI-compatible APIs that lets you inspect and modify prompts and responses.  
 
 ## Defences, standards and guardrails to test against
