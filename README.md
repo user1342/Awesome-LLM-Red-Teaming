@@ -38,6 +38,7 @@ A comprehensive list of tools and resources for red-teaming large language model
 - **[BrokenHill](https://github.com/BishopFox/BrokenHill)** - Implementation of the Greedy Coordinate Gradient attack that automatically crafts adversarial prompts.  
 - **[llm-attacks](https://github.com/llm-attacks/llm-attacks)** - Research code for universal adversarial suffixes that transfer across aligned LLMs.  
 - **[Spikee](https://labs.withsecure.com/tools/spikee)** - Simple prompt injection toolkit for probing and exploiting LLM applications.  
+- **[AI Chatbot Red-Team Starter](https://github.com/kaito3636/ai-chatbot-redteam-starter)** - Free starter set of 20 adversarial prompts (mapped to the OWASP LLM Top 10) with a promptfoo config to test your own chatbot or custom GPT for prompt injection, system-prompt extraction and data leaks.  
 
 ## Obfuscation and payload encoding utilities
 - **[Invisible Unicode Tags Playground](https://josephthacker.com/invisible_prompt_injection)** - Converts text to invisible Unicode tags to smuggle hidden instructions past filters.  
