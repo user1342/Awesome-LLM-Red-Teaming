@@ -22,6 +22,7 @@ A comprehensive list of tools and resources for red-teaming large language model
 # LLM Red Teaming Resources by Technical Function
 
 ## Playgrounds and practice targets
+- **[Memory Poisoning Lab](https://github.com/RishabhPande/memory-poison-lab)** - Local practice range for memory poisoning, origin-aware defenses and repair with synthetic targets and a scripted deterministic agent, not a real-LLM benchmark.
 - **[Folly](https://github.com/user1342/Folly)** - Open-source LLM prompt injection and jailbreak playground for hands-on experimentation.  
 - **[DamnVulnerableMathLLM](https://github.com/user1342/DamnVulnerableMathLLM)** - Intentionally vulnerable maths LLM app for practising prompt injection and logic exploits.  
 - **[DamnVulnerableShoppingLLM](https://github.com/user1342/DamnVulnerableShoppingLLM)** - Intentionally vulnerable shopping assistant scenario for testing data leakage and unsafe tool use.  
